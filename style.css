@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #5372f0;
+}
+
+.main {
+  background-color: #fff;
+  width: 25vw;
+  min-width: 500px;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.quote-section {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.fa-quote-left {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.quote-section p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.fa-quote-right {
+  padding-left: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.author {
+  text-align: end;
+  padding-bottom: 20px;
+}
+
+.lower-section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.buttons ul {
+  list-style: none;
+  display: flex;
+}
+
+.sound,
+.copy {
+  height: 50px;
+  margin-right: 10px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #5372f0;
+  font-size: 18px;
+  color: #5372f0;
+  cursor: pointer;
+}
+
+.sound:hover,
+.copy:hover {
+  color: #fff;
+  background-color: #5372f0;
+}
+
+button {
+  padding: 0 18px;
+  font-size: 16px;
+  background-color: #5372f0;
+  color: #fff;
+  border: 2px solid #5372f0;
+  border-radius: 20px;
+  cursor: pointer;
+}
